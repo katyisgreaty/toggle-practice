@@ -1,0 +1,65 @@
+
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+
+img{
+  /*height: 70%;*/
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile{
+  display: none;
+  width: 30%;
+  height: 300px;
+  float:left;
+  padding: 1%;
+  background-color: #CCCCFF;
+  border: solid black 3px;
+  margin: 3px;
+  border-radius: 75px;
+}
+
+.profile h3{
+  text-align: center;
+  font-family: courier;
+}
+
+body h1{
+  color: #FFFFCC;
+  text-align: center;
+  font-size: 100px;
+}
+
+.textbox{
+  height: 100px;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px){
+  body {
+    background-color: red;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+body{
+  background-image: url("http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg");
+  background-size: 100%;
+}
